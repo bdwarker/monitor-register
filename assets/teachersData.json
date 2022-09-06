@@ -1,0 +1,32 @@
+{
+    "Monday": {
+        "1st_Period": 
+            {
+                "name": "Name 1",
+                "Subject": "Social Science",
+                "arrival": "8:50",
+                "departure": "9:30"
+            },
+        "2nd_Period": 
+            {
+                "name": "Name 2",
+                "Subject": "Artificial Intelligence",
+                "arrival": "9:30",
+                "departure": "10:10"
+            },
+        "3rd_Period": 
+            {
+                "name": "Name 3",
+                "Subject": "Mathematics",
+                "arrival": "10:10",
+                "departure": "10:50"
+            },
+        "4th_Period": 
+            {
+                "name": "Name 4",
+                "Subject": "English",
+                "arrival": "10:50",
+                "departure": "11:30"
+            }
+    }  
+}
