@@ -41,7 +41,6 @@ while True: # Creating a loop so it keeps running.
         arrt = "True" # Setting the arrangement value to true
         arrivalTime = current_time # Setting the arrival time to current time
     saveOut.saveFile(peri=peri, name=name, subject=subject, arrivalTime=current_time, arrt=arrt)
-    time.sleep(10)
 
     
     
