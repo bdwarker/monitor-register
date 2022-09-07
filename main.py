@@ -33,7 +33,7 @@ while True:
         peri = "1st_Period"
     elif crtTime >= time.strptime('9:30', '%H:%M') and crtTime < time.strptime('10:10', '%H:%M'):
         peri = "2nd_Period"
-    elif crtTime >= time.strptime('10:10', '%H:%M') and crtTime < time.strptime('16:30', '%H:%M'):
+    elif crtTime >= time.strptime('10:10', '%H:%M') and crtTime < time.strptime('10:50', '%H:%M'):
         peri = "3rd_Period"
     elif crtTime >= time.strptime('10:50', '%H:%M') and crtTime < time.strptime('11:30', '%H:%M'):
         peri = "4th_Period"
@@ -73,8 +73,9 @@ while True:
             "Arrangement": str(arrt)
         }
     }
-    os.mkdir("output")
+    
     try:
+        os.mkdir("assets/output")
         fpi = open(f'assets/output/{today}.txt', 'x')
         fpi.close()
     except:

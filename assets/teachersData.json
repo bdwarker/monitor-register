@@ -27,6 +27,324 @@
                 "Subject": "English",
                 "arrival": "10:50",
                 "departure": "11:30"
+            },
+        "5th_Period": 
+            {
+                "name": "Name 5",
+                "Subject": "Hindi",
+                "arrival": "12:00",
+                "departure": "12:40"
+            },
+        "6th_Period": 
+            {
+                "name": "Name 6",
+                "Subject": "Science",
+                "arrival": "12:40",
+                "departure": "13:20"
+            },
+        "7th_Period": 
+            {
+                "name": "Name 7",
+                "Subject": "Games",
+                "arrival": "13:20",
+                "departure": "14:00"
+            },
+        "8th_Period": 
+            {
+                "name": "Name 7",
+                "Subject": "Games",
+                "arrival": "14:00",
+                "departure": "14:40"
             }
-    }  
+    },
+    "Tuesday": {
+        "1st_Period": 
+            {
+                "name": "Name 1",
+                "Subject": "Social Science",
+                "arrival": "8:50",
+                "departure": "9:30"
+            },
+        "2nd_Period": 
+            {
+                "name": "Name 2",
+                "Subject": "Artificial Intelligence",
+                "arrival": "9:30",
+                "departure": "10:10"
+            },
+        "3rd_Period": 
+            {
+                "name": "Name 3",
+                "Subject": "Mathematics",
+                "arrival": "10:10",
+                "departure": "10:50"
+            },
+        "4th_Period": 
+            {
+                "name": "Name 1",
+                "Subject": "Social Science",
+                "arrival": "10:50",
+                "departure": "11:30"
+            },
+        "5th_Period": 
+            {
+                "name": "Name 5",
+                "Subject": "Hindi",
+                "arrival": "12:00",
+                "departure": "12:40"
+            },
+        "6th_Period": 
+            {
+                "name": "Name 6",
+                "Subject": "Science",
+                "arrival": "12:40",
+                "departure": "13:20"
+            },
+        "7th_Period": 
+            {
+                "name": "Name 4",
+                "Subject": "English",
+                "arrival": "13:20",
+                "departure": "14:00"
+            },
+        "8th_Period": 
+            {
+                "name": "Name 4",
+                "Subject": "English",
+                "arrival": "14:00",
+                "departure": "14:40"
+            }
+    },
+    "Wednesday": {
+        "1st_Period": 
+            {
+                "name": "Name 1",
+                "Subject": "Social Science",
+                "arrival": "8:50",
+                "departure": "9:30"
+            },
+        "2nd_Period": 
+            {
+                "name": "Name 2",
+                "Subject": "Artificial Intelligence",
+                "arrival": "9:30",
+                "departure": "10:10"
+            },
+        "3rd_Period": 
+            {
+                "name": "Name 3",
+                "Subject": "Mathematics",
+                "arrival": "10:10",
+                "departure": "10:50"
+            },
+        "4th_Period": 
+            {
+                "name": "Name 8",
+                "Subject": "Art",
+                "arrival": "10:50",
+                "departure": "11:30"
+            },
+        "5th_Period": 
+            {
+                "name": "Name 5",
+                "Subject": "Hindi",
+                "arrival": "12:00",
+                "departure": "12:40"
+            },
+        "6th_Period": 
+            {
+                "name": "Name 6",
+                "Subject": "Science",
+                "arrival": "12:40",
+                "departure": "13:20"
+            },
+        "7th_Period": 
+            {
+                "name": "Name 3",
+                "Subject": "Mathematics",
+                "arrival": "13:20",
+                "departure": "14:00"
+            },
+        "8th_Period": 
+            {
+                "name": "Name 4",
+                "Subject": "English",
+                "arrival": "14:00",
+                "departure": "14:40"
+            }
+    },
+    "Thursday": {
+        "1st_Period": 
+            {
+                "name": "Name 1",
+                "Subject": "Social Science",
+                "arrival": "8:50",
+                "departure": "9:30"
+            },
+        "2nd_Period": 
+            {
+                "name": "Name 2",
+                "Subject": "Artificial Intelligence",
+                "arrival": "9:30",
+                "departure": "10:10"
+            },
+        "3rd_Period": 
+            {
+                "name": "Name 3",
+                "Subject": "Mathematics",
+                "arrival": "10:10",
+                "departure": "10:50"
+            },
+        "4th_Period": 
+            {
+                "name": "Name 9",
+                "Subject": "SUPW",
+                "arrival": "10:50",
+                "departure": "11:30"
+            },
+        "5th_Period": 
+            {
+                "name": "Name 5",
+                "Subject": "Hindi",
+                "arrival": "12:00",
+                "departure": "12:40"
+            },
+        "6th_Period": 
+            {
+                "name": "Name 6",
+                "Subject": "Science",
+                "arrival": "12:40",
+                "departure": "13:20"
+            },
+        "7th_Period": 
+            {
+                "name": "Name 7",
+                "Subject": "Games",
+                "arrival": "13:20",
+                "departure": "14:00"
+            },
+        "8th_Period": 
+            {
+                "name": "Name 4",
+                "Subject": "English",
+                "arrival": "14:00",
+                "departure": "14:40"
+            }
+    },
+    "Friday": {
+        "1st_Period": 
+            {
+                "name": "Name 1",
+                "Subject": "Social Science",
+                "arrival": "8:50",
+                "departure": "9:30"
+            },
+        "2nd_Period": 
+            {
+                "name": "Name 9",
+                "Subject": "SUPW",
+                "arrival": "9:30",
+                "departure": "10:10"
+            },
+        "3rd_Period": 
+            {
+                "name": "Name 3",
+                "Subject": "Mathematics",
+                "arrival": "10:10",
+                "departure": "10:50"
+            },
+        "4th_Period": 
+            {
+                "name": "Name 4",
+                "Subject": "English",
+                "arrival": "10:50",
+                "departure": "11:30"
+            },
+        "5th_Period": 
+            {
+                "name": "Name 5",
+                "Subject": "Hindi",
+                "arrival": "12:00",
+                "departure": "12:40"
+            },
+        "6th_Period": 
+            {
+                "name": "Name 6",
+                "Subject": "Science",
+                "arrival": "12:40",
+                "departure": "13:20"
+            },
+        "7th_Period": 
+            {
+                "name": "Name 10",
+                "Subject": "Art",
+                "arrival": "13:20",
+                "departure": "14:00"
+            },
+        "8th_Period": 
+            {
+                "name": "Name 4",
+                "Subject": "English",
+                "arrival": "14:00",
+                "departure": "14:40"
+            }
+    },
+    "Saturday": {
+        "1st_Period": 
+            {
+                "name": "None",
+                "Subject": "CCA",
+                "arrival": "8:50",
+                "departure": "9:30"
+            },
+        "2nd_Period": 
+            {
+                "name": "None",
+                "Subject": "CCA",
+                "arrival": "9:30",
+                "departure": "10:10"
+            },
+        "3rd_Period": 
+            {
+                "name": "Name 1",
+                "Subject": "Social Science",
+                "arrival": "10:10",
+                "departure": "10:50"
+            },
+        "4th_Period": 
+            {
+                "name": "Name 11",
+                "Subject": "Library",
+                "arrival": "10:50",
+                "departure": "11:30"
+            },
+        "5th_Period": 
+            {
+                "name": "Name 3",
+                "Subject": "Mathematics",
+                "arrival": "12:00",
+                "departure": "12:40"
+            },
+        "6th_Period": 
+            {
+                "name": "Name 4",
+                "Subject": "English",
+                "arrival": "12:40",
+                "departure": "13:20"
+            },
+        "7th_Period": 
+            {
+                "name": "Name 5",
+                "Subject": "Hindi",
+                "arrival": "13:20",
+                "departure": "14:00"
+            },
+        "8th_Period": 
+            {
+                "name": "Name 6",
+                "Subject": "Science",
+                "arrival": "14:00",
+                "departure": "14:40"
+            }
+    }
 }
