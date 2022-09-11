@@ -2,6 +2,7 @@ from datetime import datetime
 from datetime import date
 import time
 import os
+import json
 def saveFile(peri, name, subject, arrivalTime, arrt):
 
     today = date.today() # Getting today's date for the creation of the file.
@@ -14,17 +15,19 @@ def saveFile(peri, name, subject, arrivalTime, arrt):
             "Arrangement": str(arrt)
         }
     }
-    
-    try: # Trying to make the output file if it doesn't exists
+    try:
         os.mkdir("assets/output") # Making output folder under assets
-        fpi = open(f'assets/output/{today}.txt', 'x') # Opening the file as write-only with out clearing it completely.
+    except:
+        pass
+    try: # Trying to make the output file if it doesn't exists
+        fpi = open(f'assets/output/{today}.json', 'x') # Opening the file as write-only with out clearing it completely.
         fpi.close() # Closing the file so it saves.
     except: # If any error occurs it passes because the error was caused due to the file already existing.
         pass # Pass
     # Writing data in file
-    fp = open(f'assets/output/{today}.txt', 'r') # Opening ouput as read-only
+    fp = open(f'assets/output/{today}.json', 'r') # Opening ouput as read-only
     orgContent = fp.read() # Reading the original content and saving it for later.
     fp.close() # Closing the file so it saves.
-    fp2 = open(f'assets/output/{today}.txt', 'r+') # Re-opening the file as read and write
-    fp2.write(orgContent + "\n" + str(out)) # Writing the orignal content and the output dictionary created earlier
+    fp2 = open(f'assets/output/{today}.json', 'r+') # Re-opening the file as read and write
+    json.dump(out, fp2) # Writing the orignal content and the output dictionary created earlier
     fp2.close() # CLosing the file so it saves.

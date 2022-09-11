@@ -14,7 +14,7 @@ def checkDay():
         day = "Thursday"
     elif date.today().weekday() == 4:
         day = "Friday"
-    elif date.today().weekday() == 5:
+    elif date.today().weekday() == 6:
         day = "Saturday"
     return day
 
